@@ -895,4 +895,6 @@ def draw():
 # clock.schedule_interval(movement, 0.1)
 clock.schedule_interval(game_loop, 0.03)
 
+clock.schedule_unique(delayed_starter, 1)
+
 pgzrun.go()
